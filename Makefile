@@ -1,6 +1,6 @@
 CC := gcc
 
-SUBDIRS := $(wildcard */.)
+SUBDIRS := src
 
 all: $(SUBDIRS)
 
