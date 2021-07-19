@@ -1,6 +1,14 @@
+/**
+ * @id cpp/examples/emptyblock
+ * @name Empty blocks
+ * @description Finds empty block statements
+ * @tags empty
+ *       block
+ *       statement
+ */
+
 import cpp
 
-from IfStmt ifstmt, Block block
-where ifstmt.getThen() = block and
-  block.getNumStmt() = 0
-select ifstmt, "This 'if' statement is redundant."
+from BlockStmt blk
+where blk.getNumStmt() = 0
+select blk
