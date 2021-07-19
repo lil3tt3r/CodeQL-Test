@@ -1,5 +1,5 @@
 /**
- * @id cpp/examples/emptyblock
+ * @id cpp/examples/myemptyblockrule
  * @name Empty blocks
  * @description Finds empty block statements
  * @kind problem
